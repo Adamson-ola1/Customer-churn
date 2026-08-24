@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.ipynb_checkpoints/
+
+# ML artifacts (regenerate via `python main.py`; keep raw data + docs tracked)
+models/*.pkl
+outputs/predictions.csv
+outputs/metrics.json
+outputs/plots/*.png
+charts/*.png
+data/processed/*.csv
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.log
