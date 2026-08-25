@@ -1,0 +1,23 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.table th, .table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid #EEF0F2;
+  font-size: 0.88rem;
+}
+.table th {
+  background: #F7F8FA;
+  font-weight: 700;
+  color: #444;
+}
+.table tr:last-child td { border-bottom: none; }
+.highlight-row { background: #E8F5F1; }
+
+.history-table-wrap { margin-top: 28px; }
