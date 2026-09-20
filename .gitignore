@@ -7,9 +7,8 @@ venv/
 *.ipynb_checkpoints/
 
 # ML artifacts (regenerate via `python main.py`; keep raw data + docs tracked)
-models/*.pkl
+
 outputs/predictions.csv
-outputs/metrics.json
 outputs/plots/*.png
 charts/*.png
 data/processed/*.csv

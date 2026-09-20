@@ -42,7 +42,6 @@ data/raw
 data/processed
 
 # Generated outputs
-outputs
 charts
 
 # Logs
