@@ -42,6 +42,7 @@ RUN python -m pip install --upgrade pip && \
 COPY backend ./backend
 COPY src ./src
 COPY models ./models
+COPY outputs ./outputs
 COPY config.py .
 
 # ----------------------------------------------------------
