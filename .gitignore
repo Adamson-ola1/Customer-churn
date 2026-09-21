@@ -17,10 +17,11 @@ data/processed/*.csv
 frontend/node_modules/
 frontend/dist/
 frontend/.env.local
+frontend/.env
 
 # OS / editor
 .DS_Store
 .vscode/
 .idea/
 *.log
-frontend/.env
+
